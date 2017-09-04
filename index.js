@@ -1,6 +1,5 @@
 const ansi = require('ansi');
 const cursor = ansi(process.stdout);
-const colors = require('colors');
 var csv = require('csv');
 
 cursor.beep();
